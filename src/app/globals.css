@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vec {
+  position: absolute;
+}
+
+.box {
+  background-color: #8fd4a1;
+  filter: blur(100px);
+  height: 85px;
+  transform: rotate(-20.42deg);
+  width: 305px;
+position: absolute;
+right: -10px;
+top: 50px;
+}
+.box-2 {
+  background-color: #b2e2bf;
+  filter: blur(50px);
+  height: 85px;
+  transform: rotate(5.89deg);
+  width: 305px;
+  position: absolute;
+  top: 50px;
+  right: -10px;
+}
+
+.down-box {
+    background-color: #8fd4a1;
+    filter: blur(100px);
+    height: 85px;
+    transform: rotate(-20.42deg);
+    width: 305px;
+  position: absolute;
+  left: -10px;
+  bottom: 50px;
+  }
+  .down-box-2 {
+    background-color: #b2e2bf;
+    filter: blur(50px);
+    height: 85px;
+    transform: rotate(5.89deg);
+    width: 305px;
+    position: absolute;
+    bottom: 50px;
+    left: -10px;
+  }
+  
